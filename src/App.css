@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3 !important;
+}
+
+/* Navbar Starts */
+
+.search-btn {
+  background: #f01c21;
+}
+.search-btn:hover,
+.search-btn:focus {
+  background: #d30306;
+}
+
+.has-search {
+  width: 70%;
+  gap: 5rem;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.navbar-nav {
+  gap: 3rem !important;
+}
+
+@media screen and (max-width: 993px) {
+  .has-search {
+    width: 100%;
+    gap: 1rem;
+  }
+  .navbar-nav {
+    gap: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-nav {
+    gap: 0.9rem !important;
+  }
+  .navbar-nav li a {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Navbar Ends */
+
+/* MainSection Starts */
+/* .main-section  */
+.carousel-indicators {
+  bottom: -45px !important;
+}
+
+/* .main-section  */
+.carousel-indicators button {
+  background-color: #495057 !important;
+}
+
+/* MainSection Ends */
+
+/* Coupon Starts */
+
+.coupon-section {
+  background-color: #f3f3f3 !important;
+}
+
+.coupon-section .carousel-inner .column .card {
+  border: 2px solid #ebebeb !important;
+}
+
+.coupon-section .carousel-inner .column .card-title {
+  color: #3ba615;
+}
+
+.coupon-section .carousel-inner .column .btn {
+  background-color: #f01c21;
+  color: white;
+}
+.coupon-section .carousel-inner .column .btn:hover {
+  background-color: #d30306;
+}
+
+.filter-buttons .filter-btn button {
+  border: none;
+}
+/* .filter-buttons .filter-btn button:focus, */
+.filter-buttons .filter-btn button:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.filter-btn .active {
+  color: #f01c21;
+  background-color: white;
+}
+
+.filter-btn span {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-btn span {
+    display: block;
+  }
+}
+
+/* Coupon Ends */
+
+/* Category Section Starts */
+.category-section {
+  margin-top: 5rem;
+  background-color: #aaa;
+  padding: 3rem 0;
+}
+.category-section h1 {
+  text-align: center;
+}
+/* Category Section Ends */
